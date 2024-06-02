@@ -4,15 +4,25 @@ To write this code, used a pre-trained deep learning model called Single Shot Mu
 
 Explanation of the code:
 
--- Loading the Pre-trained Model: We load a pre-trained SSD model trained on the COCO dataset for object detection. The model consists of two files; the model file containing the trained weights and the configuration file containing the network architecture.
+- Loading the Pre-trained Model: We load a pre-trained SSD model trained on the COCO dataset for object detection. The model consists of two files; the model file containing the trained weights and the configuration file containing the network architecture.
 
--- Setting Input Parameters: We set the input size, scale, mean, and swapRB parameters for the model. These parameters are necessary for preprocessing the input image.
+  ![pre_trained_model](https://github.com/ProfUgur/Computer-Vision-OpenCv-SSD/assets/148859613/7025d5ef-5e42-4d2b-9cf4-f0bd33eedeef)
 
--- Opening Video Capture: We open a video capture object using OpenCV. You can use either a webcam or provide a file path to a video file.
+- Setting Input Parameters: We set the input size, scale, mean, and swapRB parameters for the model. These parameters are necessary for preprocessing the input image.
 
--- Object Detection Loop: We continuously read frames from the video capture and perform object detection on each frame using the SSD model. Detected objects are annotated with bounding boxes and labels.
+  ![input_and_scale](https://github.com/ProfUgur/Computer-Vision-OpenCv-SSD/assets/148859613/8fbf53ed-c021-4083-a090-6d7cf8dfdd86)
 
--- Displaying the Frame: We display the annotated frame in a window named "Object Detection". 'Q' button is used to exit the loop and close the window.
+- Opening Video Capture: We open a video capture object using OpenCV. You can use either a webcam or provide a file path to a video file.
+
+  ![video_capture](https://github.com/ProfUgur/Computer-Vision-OpenCv-SSD/assets/148859613/fd42c814-1060-4b3b-bc50-861c20175ce7)
+
+- Object Detection Loop: We continuously read frames from the video capture and perform object detection on each frame using the SSD model. Detected objects are annotated with bounding boxes and labels.
+
+ ![loop](https://github.com/ProfUgur/Computer-Vision-OpenCv-SSD/assets/148859613/fda4c618-aa3d-4e15-b0ec-715322a8c329)
+
+- Displaying the Frame: We display the annotated frame in a window named "Object Detection". 'Q' button is used to exit the loop and close the window.
+
+ ![break_loop](https://github.com/ProfUgur/Computer-Vision-OpenCv-SSD/assets/148859613/c33bdc73-1eea-4e98-9f42-0d851f945ec1)
 
 Here are a few sites I use during training where you can find information about OpenCV and SSD. These resources should provide you with ample information and guidance to get started with OpenCV and SSD-based object detection. Whether you're a beginner or an experienced developer, these sites offer valuable insights and practical examples to help you learn and implement computer vision applications.
 
