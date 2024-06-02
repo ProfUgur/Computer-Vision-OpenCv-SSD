@@ -6,7 +6,7 @@ Explanation of the code:
 
 - Loading the Pre-trained Model: We load a pre-trained SSD model trained on the COCO dataset for object detection. The model consists of two files; the model file containing the trained weights and the configuration file containing the network architecture.
 
-  ![pre_trained_model](https://github.com/ProfUgur/Computer-Vision-OpenCv-SSD/assets/148859613/7025d5ef-5e42-4d2b-9cf4-f0bd33eedeef)
+  ![pre_trained_model](https://github.com/ProfUgur/Computer-Vision-OpenCv-SSD/assets/148859613/ae90b296-a3e2-4c6a-bc92-3533811d9d35)
 
 - Setting Input Parameters: We set the input size, scale, mean, and swapRB parameters for the model. These parameters are necessary for preprocessing the input image.
 
